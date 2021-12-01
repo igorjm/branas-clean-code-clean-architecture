@@ -34,3 +34,8 @@ test("Não deve validar o cpf abaixo do limite", function() {
     const isValid = example2.validate("111111111");
     expect(isValid).toBeFalsy();
 });
+
+test("Não deve validar o cpf null", function() {
+    const isValid = example2.validate(null);
+    expect(isValid).toBeFalsy();
+});
