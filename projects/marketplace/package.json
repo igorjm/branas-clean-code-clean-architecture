@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^27.4.3",
+    "pg-promise": "^10.11.1",
     "sinon": "^12.0.1",
     "typescript": "^4.5.2"
   },
